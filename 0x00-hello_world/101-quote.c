@@ -1,12 +1,10 @@
 #include <stdio.h>
-
 #include <unistd.h>
-
 
 
 /**
  * main - The function print a quote
- * 
+ *
  * This code prints Dora's quote.
  * Always adhere to the rule max numbe of characters.
  * Things can happen and you'll not keep it though.
