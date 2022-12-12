@@ -1,10 +1,18 @@
 #include <stdio.h>
 
 /**
- *This main functions prints out that sentences
- *and returns 0.
- */
 
+ * main - Entry point
+
+ *
+
+ * Description: prints "Programming is like building a multilingual puzzle"
+
+ *
+
+ * Return: Always 0 (Success)
+
+ */
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle\n");
