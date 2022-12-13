@@ -1,28 +1,28 @@
 #include <stdio.h>
 
 /**
- * main - A function that prints all the lower and
- * upper case letters.
+ *
+ * main - Prints the alphabet in lowercase, then in uppercase.
  *
  *
- * Return: (0)
+ *
+ * Return: 0 on success
+ *
  */
 int main(void)
 {
-char l;
-char u;
-l = 'a';
-u = 'A';
-while (l <= 'z')
+char c = 'a';
+char d = 'A';
+while (c <= 'z')
 {
-	putchar(l);
-	l++;
+putchar(c);
+c++;
 }
-while (u <= 'Z')
+while (d <= 'Z')
 {
-	putchar(u);
-	u++;
+putchar(d);
+d++;
 }
-putchar("\n");
+putchar('\n');
 return (0);
 }
