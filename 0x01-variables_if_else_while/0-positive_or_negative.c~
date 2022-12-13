@@ -1,0 +1,31 @@
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
+/* more headers goes there */
+
+
+
+/**
+ * main - This function is used to check if
+ * a number is positive or negative.
+ *
+ * Description - Please ensure to follow betty's styling and code
+ * arrangements, etc.
+ * Also remember the 80 character limit for a line thoough there
+ * are exceptions.
+ *
+ * Return: (0)
+*/
+int main(void)
+{
+	int n;
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	if (n>0)
+	{
+		printf("%d is positive", n); 
+	}
+	/* your code goes there */
+	
+	return (0);
+}
