@@ -13,9 +13,9 @@
 int main(void)
 {
 int n;
+int p;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-int p;
 p = n % 10;
 if (p < 6)
 {
