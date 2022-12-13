@@ -2,11 +2,9 @@
 
 /**
  * main - Prints the alphabet in lowercase, then in uppercase.
- * 
- * Don't forget to follow betty style for your tasks
  *
  * Return: 0 on success
- */
+ */ 
 int main(void)
 {
 char c = 'a';
