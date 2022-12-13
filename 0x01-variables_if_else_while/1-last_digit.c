@@ -3,18 +3,24 @@
 #include <stdio.h>
 
 /**
- * main - This function prints the last digit of a number
+ * main - This functions prints the last digit of a number.
  *
- * Don't forget to follow the betty style and way of coding
- * not mandatory though just for this stuff. 
+ * Follow the betty styling for the tasks.
  *
  * Return: (0)
  */
-int main(void)
+int main(void)	
 {
-int n;
-srand(time(0));
-n = rand() - RAND_MAX / 2;
+	
+	int n;
+	
 
-return (0);
+	
+	srand(time(0));
+	
+	n = rand() - RAND_MAX / 2;
+	
+	/* your code goes there */
+	
+	return (0);
 }
