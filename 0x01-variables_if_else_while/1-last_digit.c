@@ -1,0 +1,33 @@
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
+
+/**
+ * main - This function prints the last digit of a number
+ *
+ * Don't forget to follow the betty style and way of coding
+ * not mandatory though just for this stuff. 
+ *
+ * Return: (0)
+ */
+int main(void)
+{
+int n;
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+int p;
+p = n % 10;
+if (p < 6)
+{
+printf("Last digit of %d is %d and is less than 6 and not 0\n", n, p);
+}
+if  (p > 5)
+{
+printf("Last digit of %d is %d and is greater than 5\n", n, p);
+}
+if (p == 0)
+{
+printf("Last digit of %d is %d and is 0\n", n, p);
+}
+return (0);
+}
