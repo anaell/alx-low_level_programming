@@ -8,7 +8,7 @@
 int main(void)
 {
 	int tar[] = "_putchar";
-	int i = 0
+	int i = 0;
 	for(i, i < 8, i++)
 		{
 		int _putchar(tar[0]);
