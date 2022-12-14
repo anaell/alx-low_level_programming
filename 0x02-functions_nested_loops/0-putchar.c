@@ -7,7 +7,8 @@
  */
 int main(void)
 {
-	char tur = "_putchar";
-	int _putchar(tur);
+	char* tar = "_putchar";
+	/*int i = str*/
+	int _putchar(tar);
 	return (0);
 }
