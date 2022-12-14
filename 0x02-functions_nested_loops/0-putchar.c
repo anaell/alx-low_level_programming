@@ -7,12 +7,12 @@
  */
 int main(void)
 {
-	int tar[] = "_putchar";
+	char tar[] = "_putchar";
 	int i = 0;
-	for(i, i < 8, i++)
+	for(i; i < 8; i++)
 		{
 		int _putchar(tar[0]);
 		}
-	inr _putchar("\n");
+	int _putchar("\n");
 	return (0);
 }
