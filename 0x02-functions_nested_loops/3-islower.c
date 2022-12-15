@@ -6,7 +6,7 @@
  *
  * Returns: (0)
  */
-int islower(int m)
+int _islower(int m)
 {
 	if (m >= 'a' && m <= 'z' )
 	{
