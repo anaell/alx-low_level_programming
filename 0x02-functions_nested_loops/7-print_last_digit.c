@@ -11,7 +11,10 @@ int print_last_digit(int x)
 {
 	int p;
 
-	p = x % 10;
-	_putchar(x % 10);
-	return (p);
+	if (x < 0)
+	{
+		x = x * -1;
+	}
+
+	return (x % 10);
 }
