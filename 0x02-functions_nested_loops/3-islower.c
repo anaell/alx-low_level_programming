@@ -6,7 +6,7 @@
  *
  * @m - character to test.
  *
- * Returns: (0)
+ * Return: (0)
  */
 int _islower(int m)
 {
