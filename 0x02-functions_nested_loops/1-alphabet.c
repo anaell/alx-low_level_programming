@@ -5,6 +5,11 @@
  *
  * Return: (0)
  */
+int main(void)
+{
+	print_alphabet();
+}
+
 void print_alphabet(void)
 {
 	int p;
@@ -12,6 +17,6 @@ void print_alphabet(void)
 	while (p <= 'z')
 	{
 		_putchar(p);
-		p++;
+		p++
 	}
 }
