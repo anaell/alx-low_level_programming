@@ -6,14 +6,10 @@
  *
  * Returns: (0)
  */
-int test_islower(int m)
+int _islower(int m)
 {
 	if (m >= 'a' && m <= 'z' )
-	{
 		return (1);
-	}
 	else
-	{
 		return (0);
-	}
 }
