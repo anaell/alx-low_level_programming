@@ -11,7 +11,7 @@ int main(void)
 	int i;
 	for (i = 0; i < 8; i++)
 		{
-		_putchar(tar[0]);
+		_putchar(tar[i]);
 		}
 	_putchar("\n");
 	return (0);
