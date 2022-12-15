@@ -17,6 +17,7 @@ void jack_bauer(void)
 
 	while (h1 < hour)
 	{		
+		h1 = 0;
 		if (h1 < 10)
 		{
 			h1 = '0' + h1;
@@ -28,9 +29,11 @@ void jack_bauer(void)
 			{
 				s1 = '0' + s1;
 			}
-			_putchar(h1 + ':' + s1);
+			_putchar(h1);
+			_putchar(':');
+			_putchar(s1);
+			_putchar('\n');
 		}
-		_putchar(h1 + ':' + s1);
 		h1++;
 	}
 }
