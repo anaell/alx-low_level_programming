@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	int tar[] = "_putchar";
+	char* tar[] = "_putchar";
 	int i;
 	for (i = 0; i < 8; i++)
 		{
