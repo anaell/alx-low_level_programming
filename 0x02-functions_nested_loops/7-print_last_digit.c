@@ -7,7 +7,7 @@
  *
  * Return: (0)
  */
-int print_last_digit(int x);
+int print_last_digit(int x)
 {
 	_putchar(x % 10);
 	return (0);
