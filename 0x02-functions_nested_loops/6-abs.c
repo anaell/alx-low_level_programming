@@ -7,11 +7,11 @@
  *
  * Return: (0)
  */
-int _abs(int)
+int _abs(int f)
 {
-	if (int < 0)
+	if (f < 0)
 	{
-		int = int * -1;
+		f = f * -1;
 	}
 	return (0);
 }
