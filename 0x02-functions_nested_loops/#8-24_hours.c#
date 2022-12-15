@@ -22,15 +22,16 @@ void jack_bauer(void);
 			h1 = '0' + h1;
 		}
 
-		for (s1 = 0; s1 < sec; s1++)
+		while (s1 < sec)
 		{
 			if (s1 < 10)
 			{
 				s1 = '0' + s1;
 			}
 			_putchar(h1 ':' s1);
+			s1++;
 		}
-		_putchar(h1 ':' s1);
+		
 		h1++;
 	}
 }
