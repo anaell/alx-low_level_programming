@@ -19,7 +19,7 @@ int main(void)
         {
             _putchar('Buzz');
         }
-        else if (i % 3 == 0 && i % 5 == 0)
+        else if ((i % 3 == 0) && (i % 5 == 0))
         {
             _putchar('FizzBuzz');
         }
