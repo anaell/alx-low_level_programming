@@ -9,9 +9,8 @@
 */
 int mul(int a, int b)
 {
-    int sum;
+int sum;
 
-    sum = a * b;
-    _putchar(sum);
-    return (0);
+sum = a * b;
+return (sum);
 }
