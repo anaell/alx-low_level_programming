@@ -18,7 +18,6 @@ int main(void)
         else if (i % 5 == 0)
         {
             _putchar('Buzz');
-            _putchar()
         }
         else if (i % 3 == 0 && i % 5 == 0)
         {
