@@ -19,19 +19,24 @@ for (a = 0; a <= 9; a++)
         c = a * b;
         tens = c / 10;
         units = c % 10;
-        if (c < 10)
+        if (c == 0)
         {
-            _putchar(tens);
-            _putchar(units);
+                _putchar('0');
+        }
+        
+        else if (c < 10)
+        {
             _putchar(',');
             _putchar(' ');
+            _putchar(' ');
+            _putchar(units);
         }
         else
         {
-            _putchar(tens + '0');
-            _putchar(units + '0');
             _putchar(',');
             _putchar(' ');
+            _putchar(tens + '0');
+            _putchar(units + '0');
         }
     }
 
