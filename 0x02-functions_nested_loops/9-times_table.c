@@ -14,19 +14,28 @@ int units;
 
 for (a = 0; a <= 9; a++)
 {
-for (b = 0; b <= 9; b++)
-{
+    for (b = 0; b <= 9; b++)
+    {
+        c = a * b;
+        tens = c / 10;
+        units = c % 10;
+        if (c < 10)
+        {
+            _putchar(tens);
+            _putchar(units);
+            _putchar(',');
+            _putchar(' ');
+        }
+        else
+        {
+            _putchar(tens + '0');
+            _putchar(units + '0');
+            _putchar(',');
+            _putchar(' ');
+        }
+    }
 
-c = a * b;
-tens = c / 10;
-units = c % 10;
-_putchar(tens + '0');
-_putchar(units + '0');
-_putchar(',');
-_putchar(' ');
-}
+    _putchar('\n');
 
-_putchar('\n');
-
-}
+    }
 }
