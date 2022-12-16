@@ -23,7 +23,6 @@ void print_diagonal(int n)
 			line++;
 		}
 	}
-    }
     else
     {
         _putchar('\n');
