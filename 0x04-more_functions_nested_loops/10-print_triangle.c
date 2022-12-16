@@ -6,7 +6,6 @@
  *
  * Return: void
  */
-
 void print_triangle(int size)
 {
 	int line = 0;
