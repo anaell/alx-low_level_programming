@@ -3,7 +3,6 @@
 /**
  * _isupper - this function checks if a
  * character is uppercase or not.
- * 
  * @c: test character.
  * 
  * Return: (1) if upper , (0) if otherwise.
