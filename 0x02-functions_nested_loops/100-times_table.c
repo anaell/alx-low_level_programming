@@ -18,8 +18,6 @@ void print_times_table(int n)
 	{
 		for (k = 0; k <= n; k++)
 		{
-			if (k != n)
-			{
 			for (j = 0; j <= n; j++)
 			{
 				l = j * k;
@@ -32,13 +30,6 @@ void print_times_table(int n)
 					m++;
 				}
 			}
-			}
-			else
-			{
-				l = j * k;
-				_putchar(l + '0');
-			}
-			_putchar('\n');
 		}
 	}
 	else
