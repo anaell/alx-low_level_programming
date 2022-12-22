@@ -18,6 +18,6 @@ int main(void)
 		if (sum1 % 2 == 0)
 			sum += sum1;
 	}
-	printf("ul%\n", sum);
+	printf("%ul\n", sum);
 	return (0);
 }
