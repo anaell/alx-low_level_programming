@@ -9,15 +9,15 @@
  */
 int main(void)
 {
-	int num;
+	int num, sum = 0;
 
 	for (num = 0; num < 1024; num++)
 	{
 		if (num % 3 == 0 || num % 5 == 0)
 		{
-			num += num;
+			sum += num;
 		}
 	}
-	printf("%d\n", num);
+	printf("%d\n", sum);
 	return (0);
 }
