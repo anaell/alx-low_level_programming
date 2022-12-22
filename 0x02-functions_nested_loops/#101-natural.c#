@@ -10,7 +10,7 @@
 int main(void)
 {
 	int num;
-
+	
 	for (num = 0; num < 1024; num++)
 	{
 		if (num % 3 == 0 || num % 5 == 0)
@@ -18,6 +18,6 @@ int main(void)
 			num += num;
 		}
 	}
-	printf("%d\n", num);
+	printf("%d 
 	return (0);
 }
