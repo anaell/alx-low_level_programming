@@ -11,8 +11,8 @@ int main(void)
 	int i;
 	unsigned long int num1, num2, num3;
 
-	num1 = 1;
-	num2 = 2;
+	num1 = 0;
+	num2 = 1;
 	for (i = 0; i < 50; i++)
 	{
 		num3 = num1 + num2;
