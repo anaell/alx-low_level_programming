@@ -1,1 +1,1 @@
-Have entered C programming
+This is readme for C programming
