@@ -18,7 +18,7 @@ void rev_string(char *s)
 	end_char_posi = i - 1;
 	first_char_posi = end_char_posi / 2;
 
-	while(first_char_posi >= 0)
+	while (first_char_posi >= 0)
 	{
 		first_char = s[end_char_posi - first_char_posi];
 		end_char = s[first_char_posi];
