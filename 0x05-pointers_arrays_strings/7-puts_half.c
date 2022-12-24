@@ -12,7 +12,7 @@ void puts_half(char *str)
 	int i, last, half;
 
 	i = 0;
-	
+
 	while (str[i] != '\0')
 	{
 		i++;
@@ -23,7 +23,7 @@ void puts_half(char *str)
 	{
 		half = last / 2;
 
-		while (half <= last)
+		while (half <= last - 1)
 		{
 			_putchar(str[half]);
 			half++;
@@ -32,7 +32,7 @@ void puts_half(char *str)
 	else
 	{
 		half = (last - 1) / 2;
-		while (half <= last)
+		while (half <= last - 1)
 		{
 			_putchar(str[half]);
 			half++;
