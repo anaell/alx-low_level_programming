@@ -6,12 +6,14 @@
  *
  * @a: the array to be printed.
  * @n: number of elements of the array.
- * 
+ *
  * Return: void
  */
 void print_array(int *a, int n)
 {
-	int i, g;	
+	int i, g;
+
+	n = n - 1;
 
 	for (i = 0; a[i] != '\n'; i++)
 	{}
