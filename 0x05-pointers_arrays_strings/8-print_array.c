@@ -15,7 +15,7 @@ void print_array(int *a, int n)
 
 	n = n - 1;
 
-	for (i = 0; a[i] != '\n'; i++)
+	for (i = 0; a[i] != '\0'; i++)
 	{}
 	for (g = 0; g <= n; g++)
 	{
