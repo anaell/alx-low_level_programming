@@ -17,13 +17,13 @@ void puts_half(char *str)
 	{
 		i++;
 	}
-	last = i - 1;
+	last = i;
 
 	if (last % 2 == 0)
 	{
 		half = last / 2;
 
-		while (half <= last)
+		while (half <= last - 1)
 		{
 			_putchar(str[half]);
 			half++;
@@ -31,7 +31,7 @@ void puts_half(char *str)
 	}
 	else
 	{
-		half = (last - 1) / 2;
+		half = (last - 2) / 2;
 		while (half <= last - 1)
 		{
 			_putchar(str[half]);
