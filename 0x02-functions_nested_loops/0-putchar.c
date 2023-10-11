@@ -5,8 +5,7 @@
  *
  * Return: (0)
  */
-int main(void)
-{
+int main(void) {
 	char tarp[] = "_putchar";
 	int i;
 
