@@ -3,7 +3,7 @@
 /**
  * print_square - this function prints a square
  * @size: the size of the square
- * 
+ *
  * Return: void
 */
 void print_square(int size)
@@ -11,7 +11,7 @@ void print_square(int size)
 int i;
 int j;
 
-if (size > 0 )
+if (size > 0)
 {
 for (i = 0; i < size; i++)
 {
